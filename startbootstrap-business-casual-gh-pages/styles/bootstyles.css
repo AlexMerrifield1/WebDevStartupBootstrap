@@ -1,0 +1,119 @@
+.tableau-site-heading{
+    text-transform: lowercase;
+    line-height: 2;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color:goldenrod;
+    overflow-x: auto
+}
+
+.tableau-site-heading-upper{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color: goldenrod;
+    overflow-x: auto
+}
+
+.tableau-site-upperheading{
+    size: 40px;
+    color: goldenrod;
+    overflow-x: auto
+}
+
+.menu {
+    display: flex;
+    border:  3px wheat;
+    background-color:gray;
+    flex-direction:column;
+    overflow-x: auto
+}
+
+.menu li {
+    text-align:center;
+    padding: 5px 5px;
+    flex-grow: 3;
+    height: 30px;
+    list-style:none;
+    overflow-x: auto
+}
+
+.menu li a {
+    color: white;
+    text-decoration:none;
+    font-size: x-large;
+    overflow-x: auto
+}
+
+.menu li a:hover {
+    font-size: 35px;
+    overflow-x: auto
+}
+
+.section h1, p{
+
+    padding: 5px
+}
+
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(145, 136, 136);
+    overflow-x: auto
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+    overflow-x: auto
+  }
+  
+  .browser {
+    background: rgb(42, 65, 48);
+    overflow-x: auto
+  }
+
+  #Goback {
+      text-decoration-color: none;
+      overflow-x: auto
+  }
+  
+ .container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+ }
+ .container-xl .container {
+    max-width: 1140px;
+ }
+
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 80%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(119, 119, 118);
+    color: white;
+    text-decoration: none;
+    overflow-x: auto
+  }
+
+
+  .button a{
+    color: white;
+    text-decoration:none;
+    font-size: x-large;
+    overflow-x: auto
+
+  }
+
+  h1{
+      color: white;
+      padding: 10px;
+      width: auto;
+  }
